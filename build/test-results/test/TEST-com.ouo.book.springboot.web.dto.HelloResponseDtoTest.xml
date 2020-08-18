@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ouo.book.springboot.web.dto.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-18T15:27:07" hostname="DESKTOP-TOPE1H8" time="0.047">
+  <properties/>
+  <testcase name="롬복기능테스트" classname="com.ouo.book.springboot.web.dto.HelloResponseDtoTest" time="0.047"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
