@@ -3,6 +3,8 @@
 
 
 &#128565; 이슈해결목록 &#128565;
+- lombok 어노테이션 인식 못해서 생기는 문제들 
+    - IDE 재시작..ㅜ
 - git에 ignore 파일빼고 커밋했는데 repository 삭제하고 커밋해도 재설정없이 같은 상태로 커밋됨 ㅠㅠ
     - git remote rm' 명령어 / 'git update-ref -d HEAD'로 initial commit 되돌리기
 - 톰캣접속시 sign창 뜨는 문제
@@ -10,3 +12,6 @@
 - 롬복 처음 설정하고 테스트하는데 'variable name not initialized in the default constructor' 에러나면서 fail - @RequiredArgsConstructor가 작동안해서 final 변수에 생성자 생성안된듯
     - lombok 설정이 gralde버전 5로 오면서 많이 달라졌기때문. 
     - gradlew wrapper --gradle-version 4.10.2   명령어로 gradle다운그레이드
+- 테스트 코드 실행시 'Test events were not received'메시지
+    -  Preference > Build, Execution, Deployment > Build Tools > Gradle 로 이동해서 Run tests using 을 IntelliJ IDEA 로 설정
+    - 출처 https://balhae79.tistory.com/387 [조영's lab Dev]

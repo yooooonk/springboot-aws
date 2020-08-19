@@ -1,5 +1,6 @@
 package com.ouo.book.springboot.web;
 
+import com.ouo.book.springboot.domain.posts.Posts;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,4 +10,6 @@ public class HelloController {
     public String hello(){
         return "hello";
     }
+
+
 }
