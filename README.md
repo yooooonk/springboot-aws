@@ -1,6 +1,12 @@
 # springboot-aws
 &#128216;[스프링부트와 AWS로 혼자 구현하는 웹서비스 - 이동욱] 클론코딩 토이프로젝트입니다
 
+&#127775; 새로 익힌 것
+- Unit test
+- JPA / Hibernate / Spring Data Jpa의 관계
+- Repository, domain, service, controller
+- JPA Auditing로 등록, 수정 시간 자동화
+- 머스테치
 
 &#128565; 이슈해결목록 &#128565;
 - lombok 어노테이션 인식 못해서 생기는 문제들 
