@@ -7,6 +7,7 @@
 - Repository, domain, service, controller
 - JPA Auditing로 등록, 수정 시간 자동화
 - 머스테치
+- 스프링부트는 기본적으로 src/main/resources/static에 위치한 자바스크립트, CSS, 이미지 등 정적파일들은 URL에서 /로 설정됨
 
 &#128565; 이슈해결목록 &#128565;
 - lombok 어노테이션 인식 못해서 생기는 문제들 
