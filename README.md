@@ -8,7 +8,14 @@
 - JPA Auditing로 등록, 수정 시간 자동화
 - 머스테치
 - 스프링부트는 기본적으로 src/main/resources/static에 위치한 자바스크립트, CSS, 이미지 등 정적파일들은 URL에서 /로 설정됨
-
+- @Transactional(readOnly = true)를 주면 트랜잭션 범위는 유지하되, 조회 기능만 남겨두어 조회 속도가 개선되기 때무넹 등록, 수정, 삭제 기능이 전혀 없는 서비스 메소드에서 사용하는 것을 추천
+- 람다식
+    ```java
+  postsRepository.findAllDesc().stream() 
+                  .map(PostsListResponseDto::new) // .map(posts -> new PostsListResponseDto(posts))
+                  .collect(Collectors.toList());
+  ```
+    - postsRepository 결과로 넘어온  Posts의 Stream을 map을 통해 PostsListPesponseDto로 변환 -> List로 반환
 &#128565; 이슈해결목록 &#128565;
 - lombok 어노테이션 인식 못해서 생기는 문제들 
     - IDE 재시작..ㅜ
