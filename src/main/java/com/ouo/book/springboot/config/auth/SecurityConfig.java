@@ -1,7 +1,7 @@
 package com.ouo.book.springboot.config.auth;
 
+import com.ouo.book.springboot.domain.user.Role;
 import lombok.RequiredArgsConstructor;
-import org.h2.engine.Role;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
