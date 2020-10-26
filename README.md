@@ -8,6 +8,8 @@
     - 구글에서 서비스 등록하고 클라이언트 ID 받아오기
     - application-oauth.properties 추가
     - entity, repository, service, controller 생성
+    - 세션 값 받아오는 어노테이션 생성
+      
 
 ## &#127775; 새로 익힌 것
 - Unit test
