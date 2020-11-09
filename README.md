@@ -1,10 +1,21 @@
 # springboot-aws
 &#128216;[스프링부트와 AWS로 혼자 구현하는 웹서비스 - 이동욱] 클론코딩 토이프로젝트입니다
 
-&#127775; 새로 익힌 것
+1. spring boot 프로젝트 만들고, gradle 설정
+2. 게시글 CRUD 화면 및 로직만들기 - entity, repository, servcie, controller, mustache화면
+3. 구글 OAuth 설정 
+    - gradle에 의존성 추가
+    - 구글에서 서비스 등록하고 클라이언트 ID 받아오기
+    - application-oauth.properties 추가
+    - entity, repository, service, controller 생성
+    - 세션 값 받아오는 어노테이션 생성
+      
+
+## &#127775; 새로 익힌 것
 - Unit test
 - JPA / Hibernate / Spring Data Jpa의 관계
 - Repository, domain, service, controller
+- DAO와 DTO, Entity와 DTO의 차이 
 - JPA Auditing로 등록, 수정 시간 자동화
 - 머스테치
 - 스프링부트는 기본적으로 src/main/resources/static에 위치한 자바스크립트, CSS, 이미지 등 정적파일들은 URL에서 /로 설정됨
@@ -16,7 +27,10 @@
                   .collect(Collectors.toList());
   ```
     - postsRepository 결과로 넘어온  Posts의 Stream을 map을 통해 PostsListPesponseDto로 변환 -> List로 반환
-&#128565; 이슈해결목록 &#128565;
+- 
+
+
+## &#128565; 이슈해결목록 &#128565;
 - lombok 어노테이션 인식 못해서 생기는 문제들 
     - IDE 재시작..ㅜ
 - git에 ignore 파일빼고 커밋했는데 repository 삭제하고 커밋해도 재설정없이 같은 상태로 커밋됨 ㅠㅠ
